@@ -1,0 +1,35 @@
+body {
+  background: url("../images/background-mobile.jpg");
+  background-size: cover;
+  font-family: "Montserrat";
+  color: white;
+  text-align: center;
+  width: 100%; }
+
+html {
+  width: 100%; }
+
+.logo {
+  margin: 0 auto;
+  display: block; }
+
+p {
+  font-size: 72px; }
+
+p, a {
+  color: white; }
+
+a {
+  font-size: 80px;
+  margin-right: 50px; }
+
+span {
+  font-family: 'IcoMoon-Free'; }
+
+@font-face {
+  font-family: 'IcoMoon-Free';
+  src: url("../IcoMoon-Free.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */

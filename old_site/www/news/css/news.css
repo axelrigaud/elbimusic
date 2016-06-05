@@ -1,0 +1,315 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000040;
+	background-color: #DBE5F9;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+
+}
+
+#wrapper {
+	width:100%;
+	height:auto;
+	margin:0px auto 0px auto;
+	padding:0px;
+	/*background-color: #4189cc;*/
+	border-top-width: 5px;
+	border-right-width: 1px;
+	border-bottom-width: 5px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #4189CC;
+	border-right-color: #4189CC;
+	border-bottom-color: #4189CC;
+	border-left-color: #4189CC;
+}
+
+#header {
+	width:100%;
+	height:25px;
+	padding:0px;
+	margin:0px;
+}
+
+#header span {
+	position:absolute;
+	top:10px;
+	left:40px;
+	font-size:14px;
+	color:#990000;
+	font-weight:bold;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#navigation {
+	width:auto;
+	height:20px;
+	margin:10px;
+	padding:10px;
+	border:1px solid #585B5F; /**/
+	background-color: #B2CAEE;
+}
+
+#navigation a:link, #navigation a:visited, #navigation a:active {
+	color: #000040;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #F00;
+	text-decoration: none;
+}
+
+
+
+#container {
+	margin:10px;
+	border:1px solid #4189CC;
+	padding:20px;
+	width:auto;
+	height:1%;
+	line-height:1.8em;
+	background-color: #B2CAEE;
+}
+
+
+#ptitle {
+	padding:10px;
+	font-weight:bold;
+	font-size:14px;
+	color:#000040;
+	margin: 0px;
+}
+
+#footer {
+	margin:0px 10px 10px 10px;
+	border:1px solid #4189CC;
+	padding:0px;
+	text-align:center;
+	background-color: #B2CAEE;
+}
+#footer p {
+	padding:10px;
+	margin:0px auto 0px auto;
+	color:#444;
+}
+#footer a:link, #footer a:active, #footer a:visited {
+	color:#444;
+	text-decoration:none;
+}
+#footer a:hover {
+	color: #999;
+	text-decoration:none;
+}
+
+.tblrepeat {
+	padding: 0px;
+	/*margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 150px;*/
+	
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #aaa;
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaa;
+	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #aaa;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaa;
+	
+}
+.tblrepeat th {
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #DADADA;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaa;
+	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #aaa;
+
+}
+.tblrepeat td {
+	margin: 0px;
+	padding: 7px;
+	
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #aaa;
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #aaa;
+	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #aaa;
+	
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #aaa;
+
+}
+.tblrepeat tr {
+	background-color:transparent;
+}
+
+.tblrepeat input, .tblrepeat select {
+  background-color: #FCFCFC;
+  border: 1px solid #000040;
+  color: #666;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+
+.tblrepeat input[type=checkbox] {
+ background-color:transparent;
+ border:none;
+ }
+
+
+.tblrepeat input[type=radio] {
+ background-color:transparent;
+ border:none;
+ }
+
+
+.tblrepeat input, .tblrepeat select {
+	/*width:300px;*/
+	width:auto;
+}
+
+
+.tblrepeat input#button {
+	width:auto;
+	height:auto;
+}
+
+
+.tblrepeat img { border: none; }
+
+a:link, a:active, a:visited {
+	text-decoration:none;
+	color:#000040;
+}
+a:hover {
+	text-decoration:none;
+	color:#F00;
+}
+
+.redBold {
+	font-weight:bold;
+	color:#990000;
+}
+.blueBold {
+	font-weight:bold;
+	color:#006699;
+}
+
+/*-------------------------------------------------------- 
+PAGINATION A NUMERO
+-------------------------------------------------------- */
+
+.pagination{
+/*padding: 2px;*/
+padding-top: 10px;
+padding-left: 150px;
+background-color:#fff;
+}
+
+.pagination ul{
+margin: 0;
+padding: 0;
+text-align: left;
+font-size: 12px;
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+padding: 0 5px;
+border: 1px solid #9aafe5;
+text-decoration: none;
+color: #2e6ab1;
+}
+
+.pagination a:hover, .pagination a:active{
+/*border: 1px solid #2b66a5;*/
+color: #000;
+background-color: lightyellow;
+}
+
+.pagination li.currentpage{
+font-weight: bold;
+padding: 0 5px;
+/*border: 1px solid navy;*/
+background-color: #fff; /*2e6ab1*/
+color: #FF0000;
+}
+
+.pagination li.disablepage{
+padding: 0 5px;
+/*border: 1px solid #929292;*/
+background-color:#fff;
+color: #FF0000;
+}
+
+.pagination li.nextpage{
+font-weight: bold;
+}
+
+* html .pagination li.currentpage, * html .pagination li.disablepage{ /*IE 6 and below. Adjust non linked LIs slightly to account for bugs*/
+margin-right: 5px;
+padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

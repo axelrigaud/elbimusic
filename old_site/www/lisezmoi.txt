@@ -1,0 +1,16 @@
+PhpNews 1.0 est un gestionnaire de news facile à utiliser et à installer.
+Vous pouvez aisément le modifier pour qu'il s'adapte à votre site web.
+Il utilise une class pour l'ajout, modification et suppression des données.
+
+## Installation ##
+Envoyez le tout dans votre espace web, si possible à la racine de votre site.
+Editez le fichier de configuration qui se situe dans includes/config.php et adaptez avec vos données d'hébergement.
+
+Pour vous connecter au panel d'administration editez le fichier admin.php et modifier la constante CODE et utilisez-la dans l'url
+pour appeler la page de gestion des news.
+Si votre CODE est 123456
+Exemple : http://www.votredomaine.com/admin.php?admin=123456&action=gestion_news
+
+Pour tout problème ou modification, contactez-moi : raphaelp@live.be
+
+Enjoy ;)

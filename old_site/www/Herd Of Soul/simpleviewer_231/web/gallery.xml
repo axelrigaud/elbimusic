@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="SimpleViewer Gallery"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="20"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="640"
+	maxImageHeight="640"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+	
+>
+<image imageURL="images/1.jpg" thumbURL="thumbs/1mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/2.jpg" thumbURL="thumbs/2mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/3.jpg" thumbURL="thumbs/3mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/4.jpg" thumbURL="thumbs/4mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/5.jpg" thumbURL="thumbs/5mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/6.jpg" thumbURL="thumbs/6mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/7.jpg" thumbURL="thumbs/7mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/8.jpg" thumbURL="thumbs/8mini.jpg" linkURL="" linkTarget="" ></image>
+
+
+
+
+
+
+
+</simpleviewergallery>
+
+
+
+
+

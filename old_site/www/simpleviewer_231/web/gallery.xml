@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="SimpleViewer Gallery"
+	textColor="FFFFFF"
+	frameColor="FFFFFF"
+	frameWidth="20"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="3"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="640"
+	maxImageHeight="640"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+	
+>
+<image imageURL="images/P1010425.JPG" thumbURL="thumbs/P1010425mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/P1010444.JPG" thumbURL="thumbs/P1010444mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/66859_579959128688557_1380886810_n.jpg" thumbURL="thumbs/66859_579959128688557_1380886810_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/533366_577390765612060_329357531_n.jpg" thumbURL="thumbs/533366_577390765612060_329357531_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/534974_579958595355277_1698708427_n.jpg" thumbURL="thumbs/534974_579958595355277_1698708427_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/557897_579958612021942_882910932_n(1).jpg" thumbURL="thumbs/557897_579958612021942_882910932_n(1)mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/625485_579958628688607_167779537_n.jpg" thumbURL="thumbs/625485_579958628688607_167779537_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/943232_10151586579337440_2141809014_n.jpg" thumbURL="thumbs/943232_10151586579337440_2141809014_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/944213_10151586579067440_2070686568_n.jpg" thumbURL="thumbs/944213_10151586579067440_2070686568_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/969412_10151586578607440_1508287643_n.jpg" thumbURL="thumbs/969412_10151586578607440_1508287643_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/970124_10151586578677440_494356387_n.jpg" thumbURL="thumbs/970124_10151586578677440_494356387_nmini.jpg" linkURL="" linkTarget="" ></image>
+
+<image imageURL="images/_MG_0115.jpg" thumbURL="thumbs/_MG_0115mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/_MG_0121.jpg" thumbURL="thumbs/_MG_0121mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/_MG_0146.jpg" thumbURL="thumbs/_MG_0146mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/_MG_0162.jpg" thumbURL="thumbs/_MG_0162mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/933993_298637553610462_1874959040_n.jpg" thumbURL="thumbs/933993_298637553610462_1874959040_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/1170855_298637543610463_561637629_n.jpg" thumbURL="thumbs/1170855_298637543610463_561637629_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/1174406_10151695750686935_412466900_n.jpg" thumbURL="thumbs/1174406_10151695750686935_412466900_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/1233357_298637480277136_232203938_n.jpg" thumbURL="thumbs/1233357_298637480277136_232203938_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/1238787_298637476943803_37786447_n.jpg" thumbURL="thumbs/1238787_298637476943803_37786447_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/1374594_10151695748461935_1431860678_n.jpg" thumbURL="thumbs/1374594_10151695748461935_1431860678_nmini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/bbcelbi.jpg" thumbURL="thumbs/bbcelbimini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/Capture d’écran 2013-02-08 à 14.08.00.png" thumbURL="thumbs/Capture d’écran 2013-02-08 à 14.08.00mini.png" linkURL="" linkTarget="" ></image>
+<image imageURL="images/DSC_0841.jpg" thumbURL="thumbs/DSC_0841mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/DSC_1981.jpg" thumbURL="thumbs/DSC_1981mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_7248.jpg" thumbURL="thumbs/IMG_7248mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_7253.jpg" thumbURL="thumbs/IMG_7253mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_7265.jpg" thumbURL="thumbs/IMG_7265mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_9065.jpg" thumbURL="thumbs/IMG_9065mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_9086.jpg" thumbURL="thumbs/IMG_9086mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_9093.jpg" thumbURL="thumbs/IMG_9093mini.jpg" linkURL="" linkTarget="" ></image>
+<image imageURL="images/IMG_9125ok.jpg" thumbURL="thumbs/IMG_9125okmini.jpg" linkURL="" linkTarget="" ></image>
+
+
+
+
+</simpleviewergallery>
+
+
+
+
+
