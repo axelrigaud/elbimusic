@@ -100,12 +100,6 @@ h1 {
   &:hover {
     box-shadow: 0 0 50px rgba(255,255,255,0.3);
   }
-  &:nth-child(even) {
-    animation: float-a 1.5s ease-in-out infinite;
-  }
-  &:nth-child(odd) {
-    animation: float-b 1.5s ease-in-out infinite;
-  }
 }
 
 .social-link {
@@ -118,23 +112,6 @@ h1 {
   margin-bottom:10px;
   left:50%;
   transform: translateX(-50%);
-}
-
-@keyframes float-a {
-  50% {
-      transform: translate(0, 5px);
-  }
-}
-@keyframes float-b {
-  0% {
-      transform: translate(0, 5px);
-  }
-  50% {
-      transform: translate(0, 0);
-  }
-  100% {
-      transform: translate(0, 5px);
-  }
 }
 
 //Loader
