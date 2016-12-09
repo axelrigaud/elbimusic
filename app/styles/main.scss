@@ -35,7 +35,7 @@ html, body, .hero, .stars {
 
 .stars {
   background-image: url('../images/stars.jpg') ;
-  background-size:cover;
+  background-size: cover;
   position:absolute;
 }
 .clouds {
@@ -47,6 +47,18 @@ html, body, .hero, .stars {
     position:absolute;
     animation: opacity-animation 8s infinite linear;
     height:100%;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 60%;
+  @media(min-width: 900px) {
+    width: 40%;
+  }
 }
 
 @keyframes opacity-animation {
