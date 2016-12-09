@@ -64,7 +64,7 @@ html, body, .hero, .stars {
 @keyframes opacity-animation {
   0% {
     opacity: 0;
-    transform: translateX(-500px);
+    transform: translateX(-400px);
   }
   50% {
     opacity: 1;
@@ -91,10 +91,21 @@ h1 {
   }
 }
 
+//social links
+
 .nav-item {
   width: 35px;
   display: inline-block;
   margin: 10px;
+  &:hover {
+    box-shadow: 0 0 50px rgba(255,255,255,0.3);
+  }
+  &:nth-child(even) {
+    animation: float-a 1.5s ease-in-out infinite;
+  }
+  &:nth-child(odd) {
+    animation: float-b 1.5s ease-in-out infinite;
+  }
 }
 
 .social-link {
@@ -107,6 +118,23 @@ h1 {
   margin-bottom:10px;
   left:50%;
   transform: translateX(-50%);
+}
+
+@keyframes float-a {
+  50% {
+      transform: translate(0, 5px);
+  }
+}
+@keyframes float-b {
+  0% {
+      transform: translate(0, 5px);
+  }
+  50% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(0, 5px);
+  }
 }
 
 //Loader
