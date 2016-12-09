@@ -95,7 +95,6 @@ h1 {
 
 .nav-item {
   width: 35px;
-  display: inline-block;
   margin: 10px;
   &:hover {
     box-shadow: 0 0 50px rgba(255,255,255,0.3);
@@ -112,6 +111,11 @@ h1 {
   margin-bottom:10px;
   left:50%;
   transform: translateX(-50%);
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
 }
 
 //Loader
