@@ -17,4 +17,8 @@ $(document).ready(function(){
     trackOutboundLink($(this).attr('href'));
   });
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $('.clouds').hide();
+  }
+
 });

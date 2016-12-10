@@ -8,6 +8,7 @@ body {
 
 .hero {
   display: none;
+  background: red;
 }
 
 ul {
@@ -25,29 +26,30 @@ ul {
 
 html, body, .hero, .stars {
   margin: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .clouds {
-  width: 200%;
-  height: 100%;
+  width: 200vw;
+  height: 100vh;
 }
 
 .stars {
   background-image: url('../images/stars.jpg') ;
   background-size: cover;
-  position:absolute;
+  position: absolute;
 }
+
 .clouds {
-    background-image: url('../images/clouds-small.jpg') ;
-    background-size: cover ;
-    mix-blend-mode: screen;
-    left:0;
-    opacity: 0;
-    position:absolute;
-    animation: opacity-animation 8s infinite linear;
-    height:100%;
+  background-image: url('../images/clouds-small.jpg') ;
+  background-size: cover;
+  mix-blend-mode: screen;
+  left:0;
+  opacity: 0;
+  position: absolute;
+  animation: opacity-animation 8s infinite linear;
+  height: 100vh;
 }
 
 .logo {
@@ -56,7 +58,7 @@ html, body, .hero, .stars {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  width: 60%;
+  width: 60vw;
   @media(min-width: 900px) {
     width: 40%;
   }
@@ -73,22 +75,6 @@ html, body, .hero, .stars {
   100% {
     opacity: 0;
    tranform: translateX(500px);
-  }
-}
-
-h1 {
-  text-indent:-10000px;
-  position: absolute;
-  color: white;
-  left:50%;
-  top:50%;
-  transform: translate(-50%, -50%);
-  width:50%;
-  height: 50%;
-  z-index: 100;
-  img {
-    display: block;
-    margin: auto;
   }
 }
 
@@ -132,7 +118,7 @@ h2 {
 }
 
 .infos-inner {
-  width: 80%;
+  width: 80vw;
   margin: 70px auto;
 }
 
@@ -143,8 +129,8 @@ h2 {
 //Loader
 .loader-wrapper {
   background: #333;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 #loader {
   animation: animate 1.5s linear infinite;
