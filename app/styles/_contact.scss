@@ -1,0 +1,31 @@
+.contact {
+  background: url('../images/contact.jpg') center center;
+  background-size: cover;
+  padding: 20px;
+  color: #fff;
+  min-height: 430px;
+  @media #{$medium-and-up} {
+    min-height: 500px;
+
+  }
+  position: relative;;
+
+  ul {
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(45, 50, 86, 0.78);
+    border-radius: 12px;
+  }
+}
+
+.contact__what {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: 2px #fff solid;
+  line-height: 45px;
+  margin-bottom: 6px;
+}
