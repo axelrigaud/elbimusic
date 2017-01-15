@@ -33,7 +33,7 @@ html, body, .hero, .stars {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
-  width: 200px;
+  width: 140px;
   @media #{$medium-and-up} {
     width: 260px;
   }
