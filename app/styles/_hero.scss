@@ -1,0 +1,92 @@
+html, body, .hero, .stars {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  display: none;
+  background: red;
+}
+
+.stars {
+  background-image: url('../images/stars.jpg') ;
+  background-size: cover;
+  position: absolute;
+}
+
+.clouds {
+  background-image: url('../images/clouds-small.jpg') ;
+  background-size: cover;
+  mix-blend-mode: screen;
+  left:0;
+  opacity: 0;
+  position: absolute;
+  animation: opacity-animation 8s infinite linear;
+  width: 200vw;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  width: 200px;
+  @media #{$medium-and-up} {
+    width: 260px;
+  }
+
+  @media #{$large-and-up} {
+    width: 320px;
+  }
+}
+
+@keyframes opacity-animation {
+  0% {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+   tranform: translateX(500px);
+  }
+}
+
+.social-link {
+  fill: #fff;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  margin: 10px;
+}
+
+
+.nav-item {
+  width: 32px;
+  margin-bottom: 8px;
+
+  @media #{$medium-and-up} {
+    width: 40px;
+  }
+
+  @media #{$large-and-up} {
+    width: 45px;
+  }
+
+  &:hover {
+    box-shadow: 0 0 50px rgba(255,255,255,0.3);
+  }
+}
