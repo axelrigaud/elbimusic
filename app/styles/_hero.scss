@@ -64,6 +64,7 @@ html, body, .hero, .stars {
 .nav {
   position: absolute;
   right: 0;
+
 }
 
 .nav-list {
@@ -77,6 +78,7 @@ html, body, .hero, .stars {
 .nav-item {
   width: 32px;
   margin-bottom: 8px;
+    opacity: 0.8;
 
   @media #{$medium-and-up} {
     width: 40px;
@@ -87,6 +89,7 @@ html, body, .hero, .stars {
   }
 
   &:hover {
-    box-shadow: 0 0 50px rgba(255,255,255,0.3);
+    opacity: 1;
   }
+  transition: 0.4s;
 }
