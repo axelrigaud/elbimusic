@@ -1,5 +1,5 @@
 footer {
-  padding: 7px;
+  padding: 10px;
   background: $dark-blue;
   position: relative;
   display: flex;
@@ -7,7 +7,6 @@ footer {
   justify-content: space-between;
   a {
     color: $magenta-sympa;
-    margin-left: 20px;
     margin-bottom: 0;
     font-size: 13px;
     &:hover {
@@ -26,7 +25,11 @@ footer {
 
 .footer__nav-item {
   width: 25px;
+  height: 25px;
   margin-right: 20px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .footer__social-link {

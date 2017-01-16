@@ -59,18 +59,19 @@
   position: absolute;
   right: 0;
   top: 0;
+  margin-top: 3px;
 }
 
 .nav-list {
   display: flex;
   list-style-type: none;
-  margin: 10px;
+  margin: 10px 13px;
 }
 
 
 .nav-item {
   width: 22px;
-  margin-right: 20px;
+  margin-left: 20px;
   opacity: 0.8;
 
   @media #{$medium-and-up} {
