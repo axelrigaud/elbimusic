@@ -1,9 +1,10 @@
 .contact {
-  background: url('../images/contact.jpg') center center;
+  background: $dark-blue url('../images/contact.jpg') center center;
   background-size: cover;
   padding: 20px;
   color: #fff;
   min-height: 430px;
+  background-blend-mode: exclusion;
   @media #{$medium-and-up} {
     min-height: 500px;
 
@@ -16,7 +17,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(45, 50, 86, 0.78);
     border-radius: 12px;
   }
 }
