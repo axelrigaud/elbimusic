@@ -21,7 +21,7 @@
 }
 
 .logo {
-  display: block;
+  display: none;
   position: absolute;
   left: 0;
   top: 0;
@@ -64,22 +64,21 @@
 .nav-list {
   display: flex;
   list-style-type: none;
-  flex-direction: column;
   margin: 10px;
 }
 
 
 .nav-item {
-  width: 30px;
-  margin-bottom: 8px;
-    opacity: 0.8;
+  width: 22px;
+  margin-right: 20px;
+  opacity: 0.8;
 
   @media #{$medium-and-up} {
-    width: 35px;
+    width: 27px;
   }
 
   @media #{$large-and-up} {
-    width: 40px;
+    width: 30px;
   }
 
   &:hover {
