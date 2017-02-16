@@ -17,6 +17,8 @@
     <!-- build:css styles/main.css -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/owl.carousel.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.css">
     <link rel="stylesheet" href="styles/main.css">
 
     <!-- endbuild -->
@@ -30,12 +32,35 @@
       <div id="loader"></div>
     </div>
     <section class="hero">
-      <div class="video-background">
-        <div class="video-foreground">
-          <iframe src="https://www.youtube.com/embed/WAoxr6besc4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+      <div class="stars"></div>
+      <div class="clouds"></div>
+      <img class="logo" src="images/logo.png">
+      <div class="owl-carousel owl-theme">
+        <div class="quote">
+          <p class="quote__content">
+            A superb discovery
+          </p>
+          <p class="quote__author">
+            Fubiz
+          </p>
+        </div>
+        <div class="quote">
+          <p class="quote__content">
+            Un univers « electronic soul » dont elle risque bien de devenir l’une des grandes prêtresses
+          </p>
+          <p class="quote__author">
+            Libération
+          </p>
+        </div>
+        <div class="quote">
+          <p class="quote__content">
+            On a Wave of Light, quatre minutes épiques.
+          </p>
+          <p class="quote__author">
+            Tsugi Magazine
+          </p>
         </div>
       </div>
-      <img class="logo" src="images/logo.png">
 
       <nav class="nav">
         <ul id="nav-list" class="nav-list">
@@ -132,6 +157,13 @@
         </div>
       </div>
     </section>
+    <section class="live">
+      <div class="video-background">
+        <div class="video-foreground">
+          <iframe src="https://www.youtube.com/embed/WAoxr6besc4?controls=0&showinfo=0&rel=0&autoplay=0&loop=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
     <section class="contact">
       <ul>
         <li><p class="contact__what">Management</p><a class="contact__email" href="mailto:contact@elbimusic.com">contact@elbimusic.com</a></li>
@@ -210,6 +242,7 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+    <script src="scripts/owl.carousel.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>

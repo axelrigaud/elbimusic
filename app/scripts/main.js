@@ -4,6 +4,15 @@ $(document).ready(function(){
   $('.loader-wrapper').fadeOut();
   $('.hero').fadeIn();
 
+  $('.owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    center: true,
+    dots: false
+  });
+
   //video
   var $iframe = $('iframe');
   var videoRatio = $iframe.height()/$iframe.width();
