@@ -20,17 +20,17 @@ $(document).ready(function(){
     setVideoDimensions();
   });
   //ga
-  var trackOutboundLink = function(url) {
-    ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-      function () {
-      document.location = url;
-      }
-    });
-  };
-
-  $('a').on('click', function(){
-    trackOutboundLink($(this).attr('href'));
-  });
+  // var trackOutboundLink = function(url) {
+  //   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+  //     function () {
+  //     document.location = url;
+  //     }
+  //   });
+  // };
+  //
+  // $('a').on('click', function(){
+  //   trackOutboundLink($(this).attr('href'));
+  // });
 
   //mobile detection
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
