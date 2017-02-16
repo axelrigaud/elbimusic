@@ -15,17 +15,19 @@ $(document).ready(function(){
 
   //video
   var $iframe = $('iframe');
+  var $videocontainer = $('.video-foreground');
   var videoRatio = $iframe.height()/$iframe.width();
 
   function setVideoDimensions () {
     $iframe.width($(window).width());
-    $iframe.height($(window).width()*videoRatio);
+    var newHeight = $(window).width()*videoRatio
+    $iframe.height(newHeight);
+    $videocontainer.height(newHeight);
   }
 
   setVideoDimensions();
 
   $(window).resize(function(){
-    console.log('resize');
     setVideoDimensions();
   });
   //ga
